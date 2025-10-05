@@ -255,7 +255,7 @@ function App() {
           onPageChange={handlePageChange}
           template={{
             layout: 'FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown',
-            RowsPerPageDropdown: (options) => {
+            RowsPerPageDropdown: () => {
               return (
                 <div className="p-d-flex p-ai-center" style={{ marginLeft: 'auto' }}>
                   <label htmlFor="rowsPerPage" style={{ marginRight: '0.5rem' }}>Rows per page:</label>
